@@ -1,0 +1,9 @@
+<div class="field-unit__label">
+  <%= f.label field.attribute %>
+</div>
+<div class="field-unit__field">
+  <% I18n.available_locales.each do |locale| %>
+    <%= f.text_field "#{field.attribute}_#{locale}".downcase.underscore %>
+    (<%= locale %>)
+  <% end %>
+</div>

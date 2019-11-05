@@ -1,0 +1,7 @@
+<% I18n.available_locales.each do |locale| %>
+  <% I18n.with_locale(locale) do %>
+    <span class="preserve-whitespace"><%= "#{field.resource.send(field.attribute.to_sym)}" %></span>
+    <%= "(#{locale})" %>
+  <% end %>
+  <br \>
+<% end %>

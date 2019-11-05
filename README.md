@@ -1,4 +1,6 @@
-# Administrate::Field::Mobility
+# Administrate::Field::Mobility 
+
+[![Gem Version](https://badge.fury.io/rb/administrate-field-mobility.svg)](https://badge.fury.io/rb/administrate-field-mobility)
 
 ## Warning
 This gem is under early development.

@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    administrate-field-mobility-string (0.0.1)
-      administrate (~> 0.10, >= 0.10.0)
+    administrate-field-mobility-string (0.0.2)
+      administrate (~> 0.13, >= 0.13.0)
 
 GEM
   remote: https://rubygems.org/
@@ -140,4 +140,4 @@ DEPENDENCIES
   rspec (~> 3.4)
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
